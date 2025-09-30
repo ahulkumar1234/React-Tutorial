@@ -1,0 +1,38 @@
+.navbar {
+  background-color: antiquewhite;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  position: relative;
+  font-size: medium;
+  font-weight: 600;
+
+}
+
+ul li {
+  padding: 10px 15px;
+}
+
+ul li:hover {
+  background-color: burlywood;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  font-weight: 400;
+}

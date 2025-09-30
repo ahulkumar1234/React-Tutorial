@@ -1,0 +1,11 @@
+ul a{
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+ul a:hover{
+  background-color: rgb(0, 204, 0);
+  color: white;
+  transition: 0.3s ease-in-out;
+  border-radius: 5px;
+}
