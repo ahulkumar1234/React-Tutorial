@@ -45,7 +45,10 @@ const Api = () => {
                     {
 
                         posts && posts.map((item, idx) => (
-                            <li key={idx} className="border border-gray-600 mb-1">{item.id} {item.title}</li>
+                            <>
+                            <li key={idx} className="border text-red-400 font-semibold  border-gray-600 mb-1">{item.id} {item.title}</li>
+                            <li>{item.body}</li>
+                            </>
                         ))
                     }
                 </ul>
