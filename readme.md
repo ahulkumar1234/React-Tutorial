@@ -148,9 +148,9 @@ function Counter() {
   return (
     <>
       <h2>Count: {state.count}</h2>
-      <button onClick={() => dispatch({ type: "increment" })}>+</button>
-      <button onClick={() => dispatch({ type: "decrement" })}>-</button>
-      <button onClick={() => dispatch({ type: "reset" })}>Reset</button>
+      <button onClick={() => dispatch({ type: "increment" })}>+</button> <br/>
+      <button onClick={() => dispatch({ type: "decrement" })}>-</button> <br/>
+      <button onClick={() => dispatch({ type: "reset" })}>Reset</button> 
     </>
   );
 }
@@ -161,8 +161,8 @@ export default Counter;
 
 ⚡ Shortcut to Remember:
 
-👉useEffect → Side effects (API call, event)
-👉useRef → Reference (DOM/variable)
-👉useContext → Global data sharing
-👉useMemo → Save calculation result
-👉useCallback → Save function
+👉useEffect → Side effects (API call, event) <br/>
+👉useRef → Reference (DOM/variable) <br/>
+👉useContext → Global data sharing <br/>
+👉useMemo → Save calculation result <br/>
+👉useCallback → Save function 
